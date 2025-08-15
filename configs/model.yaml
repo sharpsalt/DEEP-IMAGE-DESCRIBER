@@ -1,0 +1,17 @@
+vision:
+  name: efficientnetv2-s
+  img_size: 384
+  trainable_layers: 80
+
+decoder:
+  vocab_size: 32000
+  d_model: 768
+  n_heads: 12
+  d_ff: 3072
+  n_layers: 8
+  recursions: 3
+  dropout: 0.1
+
+memory:
+  dim: 512
+  slots: 8

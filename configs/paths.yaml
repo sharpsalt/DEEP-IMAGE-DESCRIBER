@@ -1,0 +1,6 @@
+data_root: ./data
+raw_images: ./data/raw                  # raw/coco, raw/flickr30k
+hf_jsonl_dir: ./data/hf_captions        # coco.jsonl, flickr30k.jsonl
+tfrecords: ./data/tfrecords
+ckpt_dir: ./checkpoints/paragraph_tf
+tokenizer: ./data/vocab/spm.model       # optional; stub tokenizer used if missing
